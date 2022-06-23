@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+}
+.login{
+    width: 80%;
+    margin:  auto;
+    text-align: center;
+    padding: 100px;
+    background: #0db91b;
+}
+.row-2{
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+}
+.login-col{
+    background: #e79c11;
+    flex-basis: 50%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.login-col h2{
+    text-align: center;
+    background: #460aec;
+    color: aliceblue;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 12px;
+    font-weight: bold;
+    top: 0;
+}
+.input_field{
+    margin: 15px;
+}
+.input_field i{
+    margin: 10px;
+}
+.input_field input[type="text"],input[type="password"],input[type="email"]{
+    width: 70%;
+    margin: 15px;
+}
+ input[type="submit"]{
+    width: 50%;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: #62ff07;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.admin_dashbord{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    background: #3d0ebe;
+}
+
+
+.log{
+    width: 80%;
+    margin: auto;
+    padding-top: 5px;
+    text-align: center;
+}
+.row{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+
+ .service-col{
+    background: #0db91b;
+    flex-basis: 30%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+   
+}
+.service-col h2{
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 12px;
+    text-decoration: underline;
+   
+}
+ .service-col:hover{
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+   transition: .5s;
+   -webkit-transition: .5s;
+   -moz-transition: .5s;
+   -ms-transition: .5s;
+   -o-transition: .5s;
+}
+.admin_footer{
+   text-align: center;
+    padding: 10px 60px;
+    background: #d6ec0a;
+}
+
+/* Addmin panel end */
+.list table{
+    width: 60% !important;
+}

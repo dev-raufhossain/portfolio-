@@ -1,0 +1,89 @@
+@media(max-width: 700px){
+    .titeldiscription{
+        width: 90%;
+        color: rgb(238, 20, 154);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .titeldiscription h1{
+        font-size: 25px;
+    }
+    nav span{
+        display: block;
+        margin: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .nav-menu {
+        position: absolute;
+        background: rgba(216, 99, 21, 0.993);
+        height: 100vh;
+        width: 300px;
+        top: 0;
+        right: -300px;
+        text-align: left;
+        z-index: 1;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+}
+    .nav-menu ul li {
+        display: block;
+       margin: 10px 0;
+        
+     }
+     .nav-menu ul {
+         padding: 30px;
+        
+     }
+   
+     .profile{
+        width: 40%;
+        position: absolute;
+        top: 78%;
+        left: 23%;
+        transform: translate(25%,-31.5%);
+        -webkit-transform: translate(25%,-31.5%);
+        -moz-transform: translate(25%,-31.5%);
+        -ms-transform: translate(25%,-31.5%);
+        -o-transform: translate(25%,-31.5%);
+    }
+                 /* HEDER END */
+
+                 /* ABOUT START */
+                 .row{
+                   flex-direction: column;
+                  
+                }
+                 /* ABOUT END */
+                /* testimonials start */
+                .test-col img{
+                    height: 40px;
+                    margin-left: 0px;
+                    margin-right: 15px;
+                   
+            }
+                /* testimonials end */
+
+                /* call to action START */
+
+                .call-to-action h2{
+                    font-size: 20px;
+
+                }
+                /* call to action End */
+
+                /* futer stert */
+                /* futer end */
+
+
+}
